@@ -1,0 +1,1 @@
+web:gunicorn dashboard_alunos:app

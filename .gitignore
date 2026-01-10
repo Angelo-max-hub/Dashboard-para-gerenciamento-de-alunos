@@ -1,0 +1,10 @@
+/.venv
+
+# Emacs.
+.projectile
+
+# Python.
+__pycache__
+
+# Pyright
+pyrightconfig.json
