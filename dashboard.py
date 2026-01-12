@@ -8,6 +8,7 @@ import plotly.io as pio
 
 # Temas.
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 pio.templates.default = "plotly_dark"
 
 # Extrair dados do banco de dados.
